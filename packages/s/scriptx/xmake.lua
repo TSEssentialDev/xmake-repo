@@ -19,7 +19,7 @@ package("scriptx")
 
         local deps = {
             Lua = "lua",
-            quickjs = "quickjs 2024-01-13",
+            quickjs = "quickjs 2024.1.13",
         }
 
         print("Using ScriptX config: backend=" .. backend)
