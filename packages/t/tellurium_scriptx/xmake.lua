@@ -2,7 +2,7 @@ package("tellurium_scriptx")
     add_urls("https://github.com/TelluriumDev/ScriptX.git")
     add_versions("1.0.0", "abe9bc4c0b83727bf04c1af838951c05226fb65f")
 
-    add_configs("backend", {default = "lua", values = {"lua", "quickjs"}})
+    add_configs("backend", {default = "lua", values = {"Lua", "quickjs"}})
     add_includedirs(
         "include/src/include/"
     )
@@ -18,7 +18,7 @@ package("tellurium_scriptx")
         local backend = package:config("backend")
 
         local deps = {
-            lua = "lua",
+            Lua = "lua",
             quickjs = "quickjs 2024.01.13",
         }
 
