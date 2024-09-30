@@ -19,7 +19,7 @@ package("tellurium_scriptx")
 
         local deps = {
             Lua = "lua",
-            quickjs = "quickjs",
+            quickjs = "vcpkg::quickjs",
         }
 
         print("Using ScriptX config: backend=" .. backend)
