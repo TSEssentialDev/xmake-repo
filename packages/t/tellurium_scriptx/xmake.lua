@@ -18,7 +18,7 @@ package("tellurium_scriptx")
         local backend = package:config("backend")
 
         local deps = {
-            Lua = "lua",
+            lua = "lua",
             quickjs = "quickjs 2024.01.13",
         }
 
